@@ -44,6 +44,12 @@ import refkeys
 secret_key=refkeys.combine_keyfiles(person1_key,person2_key,mediator_key)
 ## note: names should be distinct, and mediator name is not mandatory.
 ```
+
+#### Installation using pip:
+```python
+pip install refkeys
+```
+
 ##### Note: Please do use this software at your own risks!!! 
 The developer, author, creator of this algorithm & program is not liable for any damages (if happened) using this program.
 Please use other solutions for sharing very secret information, this program is made for general use cases only, don't use it for sensitive work.
