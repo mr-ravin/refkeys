@@ -2,7 +2,7 @@
 ### Author & Developer: [Ravin Kumar](https://mr-ravin.github.io)
 This repository contains a tool for secret-sharing among two parties.
 
-For example, lets say two parties A and B want to share a secret_key, such that only if they both agree than only shey should be able to get the secret.
+For example, lets say two parties A and B want to share a secret_key, such that only if they both agree than only they should be able to get the secret.
 Our software generates 3 individual keys, one for each party, and one for the mediator. When these keys are combined then only the secret_key can be revealed.
 
 #### Advantage of our system:
