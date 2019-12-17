@@ -1,5 +1,5 @@
 # Refkeys: A secure way for sharing secret (key).
-### Author & Developer: [Ravin Kumar](https://mr-ravin.github.io)
+#### Author & Developer: [Ravin Kumar](https://mr-ravin.github.io)
 This repository contains a tool for secret-sharing among two parties.
 
 For example, lets say two parties A and B want to share a secret_key, such that only if they both agree than only they should be able to get the secret.
@@ -50,6 +50,4 @@ secret_key=refkeys.combine_keyfiles(person1_key,person2_key,mediator_key)
 pip install refkeys
 ```
 
-##### Note: Please do use this software at your own risks!!! 
-The developer, author, creator of this algorithm & program is not liable for any damages (if happened) using this program.
-Please use other solutions for sharing very secret information, this program is made for general use cases only, don't use it for sensitive work.
+##### Note: This work can be used freely after providing citation and/or deserved credits to this work. Please use it at your own risk !!!
